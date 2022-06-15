@@ -2,7 +2,7 @@
 Neural Networks and Deep Learning final homework 
 
 ## 训练步骤
-### a、训练VOC07+12数据集
+### 训练VOC07+12数据集
 1. 数据集的准备   
 **本文使用VOC格式进行训练，训练前需要下载好VOC07+12的数据集，解压后放在根目录**  
 
@@ -10,7 +10,7 @@ Neural Networks and Deep Learning final homework
 修改voc_annotation.py里面的annotation_mode=2，运行voc_annotation.py生成根目录下的2007_train.txt和2007_val.txt。   
 
 3. 开始网络训练   
-train.py的默认参数用于训练VOC数据集，直接运行train.py即可开始训练。   
+train.py的默认参数用于训练VOC数据集，直接运行train.py即可开始训练。由于本次作业分别对应三种不同的初始化训练策略，因此在这里分别对应三个工程文件，在每个工程文件下执行对应的train.py文件即可。   
 
 4. 训练结果预测   
 训练结果预测需要用到两个文件，分别是frcnn.py和predict.py。我们首先需要去frcnn.py里面修改model_path以及classes_path，这两个参数必须要修改。   
@@ -61,7 +61,8 @@ img/street.jpg
 
 
 ## 文件下载
-训练所需的网络权重文件可以在百度云下载。  
+训练所需的网络权重文件可以在百度云下载(格式: XXX_best_epoch_weights2-X.pth), 分别对应第二问中的每个小问的权重文件。
+该网盘还包含了resnet50网络在ImageNet和Coco数据集上的预训练权重，分别为: resnet50-19c8e357.pth和fasterrcnn_resnet50_fpn_coco-258fb6c6.pth 
 链接: https://pan.baidu.com/s/1dRQiCbXvgUDPCqJubuQOxw?pwd=bkug     
 提取码: bkug      
 
