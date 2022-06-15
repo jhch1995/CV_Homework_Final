@@ -1,5 +1,5 @@
 # Homework_Faster_Rcnn
-Neural Networks and Deep Learning middle term homework 
+Neural Networks and Deep Learning final homework 
 
 ## 训练步骤
 ### a、训练VOC07+12数据集
@@ -62,8 +62,8 @@ img/street.jpg
 
 ## 文件下载
 训练所需的网络权重文件可以在百度云下载。  
-链接: https://pan.baidu.com/s/1H6Vc87Jo-dMiMBWkIQHuxw?pwd=nk15      
-提取码: nk15    
+链接: https://pan.baidu.com/s/1dRQiCbXvgUDPCqJubuQOxw?pwd=bkug     
+提取码: bkug      
 
 VOC数据集下载地址如下，里面已经包括了训练集、测试集、验证集（与测试集一样），无需再次划分：  
 链接: https://pan.baidu.com/s/1YuBbBKxm2FGgTU5OfaeC5A    
